@@ -82,9 +82,10 @@ header > .h-pai > div > nav ul{
 
     border-radius: 3px;
     text-align: center;
-    background-color:#16a88d80 ;
+    background-color:#16a88da8 ;
     border: 1px solid white;
     color: white;
+    /* width: 400px; */
     
 
 
@@ -94,8 +95,9 @@ header > .h-pai > div > nav ul{
 
     font-family: var(--font1);
     font-weight: 900;
-    padding: 30px 0px;
+    padding: 20px 0px;
     font-size: 30px;
+    
 }
 
 .box-centro p {
@@ -108,5 +110,196 @@ header > .h-pai > div > nav ul{
 
 }
 
+section > .bemvindo {
+
+    text-align: center;
+    padding: 30px 0px;
+   
+    
+}
+
+section > .bemvindo > h2 , p {
+
+    font-family: var(--font1);
+    font-weight: normal;
+    padding: 5px 0px;
+
+}
+
+section > .pai-quartos .img-quartos{
+
+    width: 300px;
+}
+
+section > .pai-quartos div {
+
+    text-align: center;
+    border-bottom: 2px solid #42776F;
+    padding-bottom: 12px;
+    
+
+    
+}
 
 
+section > .pai-quartos{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+section > .pai-quartos div h3 {
+
+    font-family: var(--font1);
+    font-weight:500;
+    margin-top: 10px;
+}
+
+section > .tx-rota{
+
+    text-align: center;
+    padding: 40px 0px 20px 0px ;
+    font-family: var(--font1);
+    
+}
+
+section > .tx-rota h2 {
+
+    font-weight: normal;
+    padding-bottom: 10px;
+
+}
+
+section iframe {
+
+    width: 100%;
+}
+
+
+section > .box-sobre {
+
+    text-align: center;
+    padding: 30px 0px;
+}
+
+section > .box-sobre h3 {
+
+    font-family: var(--font1);
+    font-size: 25px;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+
+section > .info-pai .img-pq {
+
+    width: 90px;
+    height: 90px;
+}
+
+section > .info-pai {
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+    
+
+}
+
+section > .info-pai .box-filho {
+
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+section > .info-pai .tx-pq ,  .img-pq {
+
+    max-width: calc(400px - 40px);
+    margin: 0px 20px;
+    
+}
+
+section > .info-pai .box-filho .tx-pq{
+
+    padding: 0px 0px 40px 0px;
+    font-family: var(--font1);
+}
+
+.posicao{ /*imagens que tive que reposicionar com o position relative*/
+
+    position: relative;
+    bottom: 10px;
+}
+
+
+footer{
+
+    background-color: #49997C;
+    color: white;
+    font-family: var(--font1);
+    text-align: center;
+    padding: 10px 0px;
+}
+
+footer .img-footer {
+
+    width: 35px;
+    padding: 0px 5px;
+}
+
+footer a {
+
+    color: white;
+    
+}
+
+footer #booking{
+
+    color: white;
+}
+
+footer .footer-pai{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+    
+    
+}
+
+footer .footer-pai h3 {
+
+    text-align: left;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+footer .footer-pai p {
+
+    text-align: left;
+}
+
+footer .borda{
+    
+    border-top: 1px solid rgba(0, 0, 0, 0.308);
+    width: 60%;
+    margin: 0px auto;
+    padding-top: 5px;
+}
