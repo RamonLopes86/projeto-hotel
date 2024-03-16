@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root{
+
+    --font1:'source sans 3';
+    --font2:'Source Code Pro';
+    --corsecreta:#81b0ce;
+
+
+}
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    
+   
+}
+
+a{
+    color: black;
+}
+
+header{
+    padding: 10px 0px;
+    font-family: var(--font1);
+}
+
+header > .h-pai{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header > .h-pai > .nome-pousada {
+
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+header > .h-pai > .nome-pousada mark{
+
+    background-color:transparent;
+    color: var(--corsecreta);
+}
+
+header > .h-pai > div > nav ul{
+
+    display: flex;
+    flex-direction: row;
+    padding-right: 30px;
+    gap: 20px;
+    font-size: 13px;
+}
+
+.island{
+
+    background-image: url(../image/img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom bottom;
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box-centro{
+
+    border-radius: 3px;
+    text-align: center;
+    background-color:#16a88d80 ;
+    border: 1px solid white;
+    color: white;
+    
+
+
+}
+
+.box-centro h1 {
+
+    font-family: var(--font1);
+    font-weight: 900;
+    padding: 30px 0px;
+    font-size: 30px;
+}
+
+.box-centro p {
+     
+    font-family: var(--font1);
+    font-weight: normal;
+    padding: 0px  10px 20px 10px;
+
+   
+
+}
+
+
+
