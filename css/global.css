@@ -303,3 +303,15 @@ footer .borda{
     margin: 0px auto;
     padding-top: 5px;
 }
+
+
+
+header > .h-pai   ul li:hover{
+
+    transition-property:all ;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    border-bottom: 1px solid black;
+    
+}
+
