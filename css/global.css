@@ -30,8 +30,37 @@ a{
 }
 
 header{
-    padding: 10px 0px;
+
+    padding: 20px 0px;
     font-family: var(--font1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 1s;
+    color: white;
+    
+}
+
+
+header a {
+
+    color: white;
+}
+
+
+.rolagem{
+
+    background-color: white;
+    padding-bottom: 40px;
+    transition: padding 1s;
+    color:black;
+    border-bottom: 3px solid lightskyblue;
+}
+
+header.rolagem a{
+
+    color: black;
 }
 
 header > .h-pai{
@@ -305,6 +334,7 @@ footer .borda{
     margin: 0px auto;
     padding-top: 5px;
 }
+
 
 
 
